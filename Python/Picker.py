@@ -332,28 +332,52 @@ levels = {
 20 : 100 ,
 }
 
+rarities = {
+0  : 0    ,
+1  : 1    ,
+2  : 2    ,
+3  : 4    ,
+4  : 8    ,
+5  : 16   ,
+6  : 32   ,
+7  : 64   ,
+8  : 128  ,
+9  : 256  ,
+10 : 384  ,
+11 : 512  ,
+12 : 640  ,
+13 : 768  ,
+14 : 896  ,
+15 : 1024 ,
+16 : 1152 ,
+17 : 1280 ,
+18 : 1408 ,
+19 : 1536 ,
+20 : 1664 ,
+}
+
 tables = {
-0  : ( grids[0]  , identities[0]  , names[0]  , discovers[0]  , plurals[0]  , descriptions[0]  , symbols[0]  , foregrounds[0]  , backgrounds[0]  , spaces[0]  , windows[0]  , clips[0]  , levels[0]  , )
-1  : ( grids[1]  , identities[1]  , names[1]  , discovers[1]  , plurals[1]  , descriptions[1]  , symbols[1]  , foregrounds[1]  , backgrounds[1]  , spaces[1]  , windows[1]  , clips[1]  , levels[1]  , )
-2  : ( grids[2]  , identities[2]  , names[2]  , discovers[2]  , plurals[2]  , descriptions[2]  , symbols[2]  , foregrounds[2]  , backgrounds[2]  , spaces[2]  , windows[2]  , clips[2]  , levels[2]  , )
-3  : ( grids[3]  , identities[3]  , names[3]  , discovers[3]  , plurals[3]  , descriptions[3]  , symbols[3]  , foregrounds[3]  , backgrounds[3]  , spaces[3]  , windows[3]  , clips[3]  , levels[3]  , )
-4  : ( grids[4]  , identities[4]  , names[4]  , discovers[4]  , plurals[4]  , descriptions[4]  , symbols[4]  , foregrounds[4]  , backgrounds[4]  , spaces[4]  , windows[4]  , clips[4]  , levels[4]  , )
-5  : ( grids[5]  , identities[5]  , names[5]  , discovers[5]  , plurals[5]  , descriptions[5]  , symbols[5]  , foregrounds[5]  , backgrounds[5]  , spaces[5]  , windows[5]  , clips[5]  , levels[5]  , )
-6  : ( grids[6]  , identities[6]  , names[6]  , discovers[6]  , plurals[6]  , descriptions[6]  , symbols[6]  , foregrounds[6]  , backgrounds[6]  , spaces[6]  , windows[6]  , clips[6]  , levels[6]  , )
-7  : ( grids[7]  , identities[7]  , names[7]  , discovers[7]  , plurals[7]  , descriptions[7]  , symbols[7]  , foregrounds[7]  , backgrounds[7]  , spaces[7]  , windows[7]  , clips[7]  , levels[7]  , )
-8  : ( grids[8]  , identities[8]  , names[8]  , discovers[8]  , plurals[8]  , descriptions[8]  , symbols[8]  , foregrounds[8]  , backgrounds[8]  , spaces[8]  , windows[8]  , clips[8]  , levels[8]  , )
-9  : ( grids[9]  , identities[9]  , names[9]  , discovers[9]  , plurals[9]  , descriptions[9]  , symbols[9]  , foregrounds[9]  , backgrounds[9]  , spaces[9]  , windows[9]  , clips[9]  , levels[9]  , )
-10 : ( grids[10] , identities[10] , names[10] , discovers[10] , plurals[10] , descriptions[10] , symbols[10] , foregrounds[10] , backgrounds[10] , spaces[10] , windows[10] , clips[10] , levels[10] , )
-11 : ( grids[11] , identities[11] , names[11] , discovers[11] , plurals[11] , descriptions[11] , symbols[11] , foregrounds[11] , backgrounds[11] , spaces[11] , windows[11] , clips[11] , levels[11] , )
-12 : ( grids[12] , identities[12] , names[12] , discovers[12] , plurals[12] , descriptions[12] , symbols[12] , foregrounds[12] , backgrounds[12] , spaces[12] , windows[12] , clips[12] , levels[12] , )
-13 : ( grids[13] , identities[13] , names[13] , discovers[13] , plurals[13] , descriptions[13] , symbols[13] , foregrounds[13] , backgrounds[13] , spaces[13] , windows[13] , clips[13] , levels[13] , )
-14 : ( grids[14] , identities[14] , names[14] , discovers[14] , plurals[14] , descriptions[14] , symbols[14] , foregrounds[14] , backgrounds[14] , spaces[14] , windows[14] , clips[14] , levels[14] , )
-15 : ( grids[15] , identities[15] , names[15] , discovers[15] , plurals[15] , descriptions[15] , symbols[15] , foregrounds[15] , backgrounds[15] , spaces[15] , windows[15] , clips[15] , levels[15] , )
-16 : ( grids[16] , identities[16] , names[16] , discovers[16] , plurals[16] , descriptions[16] , symbols[16] , foregrounds[16] , backgrounds[16] , spaces[16] , windows[16] , clips[16] , levels[16] , )
-17 : ( grids[17] , identities[17] , names[17] , discovers[17] , plurals[17] , descriptions[17] , symbols[17] , foregrounds[17] , backgrounds[17] , spaces[17] , windows[17] , clips[17] , levels[17] , )
-18 : ( grids[18] , identities[18] , names[18] , discovers[18] , plurals[18] , descriptions[18] , symbols[18] , foregrounds[18] , backgrounds[18] , spaces[18] , windows[18] , clips[18] , levels[18] , )
-19 : ( grids[19] , identities[19] , names[19] , discovers[19] , plurals[19] , descriptions[19] , symbols[19] , foregrounds[19] , backgrounds[19] , spaces[19] , windows[19] , clips[19] , levels[19] , )
-20 : ( grids[20] , identities[20] , names[20] , discovers[20] , plurals[20] , descriptions[20] , symbols[20] , foregrounds[20] , backgrounds[20] , spaces[20] , windows[20] , clips[20] , levels[20] , )
+0  : ( grids[0]  , identities[0]  , names[0]  , discovers[0]  , plurals[0]  , descriptions[0]  , symbols[0]  , foregrounds[0]  , backgrounds[0]  , spaces[0]  , windows[0]  , clips[0]  , levels[0]  , rarities[0]  , )
+1  : ( grids[1]  , identities[1]  , names[1]  , discovers[1]  , plurals[1]  , descriptions[1]  , symbols[1]  , foregrounds[1]  , backgrounds[1]  , spaces[1]  , windows[1]  , clips[1]  , levels[1]  , rarities[1]  , )
+2  : ( grids[2]  , identities[2]  , names[2]  , discovers[2]  , plurals[2]  , descriptions[2]  , symbols[2]  , foregrounds[2]  , backgrounds[2]  , spaces[2]  , windows[2]  , clips[2]  , levels[2]  , rarities[2]  , )
+3  : ( grids[3]  , identities[3]  , names[3]  , discovers[3]  , plurals[3]  , descriptions[3]  , symbols[3]  , foregrounds[3]  , backgrounds[3]  , spaces[3]  , windows[3]  , clips[3]  , levels[3]  , rarities[3]  , )
+4  : ( grids[4]  , identities[4]  , names[4]  , discovers[4]  , plurals[4]  , descriptions[4]  , symbols[4]  , foregrounds[4]  , backgrounds[4]  , spaces[4]  , windows[4]  , clips[4]  , levels[4]  , rarities[4]  , )
+5  : ( grids[5]  , identities[5]  , names[5]  , discovers[5]  , plurals[5]  , descriptions[5]  , symbols[5]  , foregrounds[5]  , backgrounds[5]  , spaces[5]  , windows[5]  , clips[5]  , levels[5]  , rarities[5]  , )
+6  : ( grids[6]  , identities[6]  , names[6]  , discovers[6]  , plurals[6]  , descriptions[6]  , symbols[6]  , foregrounds[6]  , backgrounds[6]  , spaces[6]  , windows[6]  , clips[6]  , levels[6]  , rarities[6]  , )
+7  : ( grids[7]  , identities[7]  , names[7]  , discovers[7]  , plurals[7]  , descriptions[7]  , symbols[7]  , foregrounds[7]  , backgrounds[7]  , spaces[7]  , windows[7]  , clips[7]  , levels[7]  , rarities[7]  , )
+8  : ( grids[8]  , identities[8]  , names[8]  , discovers[8]  , plurals[8]  , descriptions[8]  , symbols[8]  , foregrounds[8]  , backgrounds[8]  , spaces[8]  , windows[8]  , clips[8]  , levels[8]  , rarities[8]  , )
+9  : ( grids[9]  , identities[9]  , names[9]  , discovers[9]  , plurals[9]  , descriptions[9]  , symbols[9]  , foregrounds[9]  , backgrounds[9]  , spaces[9]  , windows[9]  , clips[9]  , levels[9]  , rarities[9]  , )
+10 : ( grids[10] , identities[10] , names[10] , discovers[10] , plurals[10] , descriptions[10] , symbols[10] , foregrounds[10] , backgrounds[10] , spaces[10] , windows[10] , clips[10] , levels[10] , rarities[10] , )
+11 : ( grids[11] , identities[11] , names[11] , discovers[11] , plurals[11] , descriptions[11] , symbols[11] , foregrounds[11] , backgrounds[11] , spaces[11] , windows[11] , clips[11] , levels[11] , rarities[11] , )
+12 : ( grids[12] , identities[12] , names[12] , discovers[12] , plurals[12] , descriptions[12] , symbols[12] , foregrounds[12] , backgrounds[12] , spaces[12] , windows[12] , clips[12] , levels[12] , rarities[12] , )
+13 : ( grids[13] , identities[13] , names[13] , discovers[13] , plurals[13] , descriptions[13] , symbols[13] , foregrounds[13] , backgrounds[13] , spaces[13] , windows[13] , clips[13] , levels[13] , rarities[13] , )
+14 : ( grids[14] , identities[14] , names[14] , discovers[14] , plurals[14] , descriptions[14] , symbols[14] , foregrounds[14] , backgrounds[14] , spaces[14] , windows[14] , clips[14] , levels[14] , rarities[14] , )
+15 : ( grids[15] , identities[15] , names[15] , discovers[15] , plurals[15] , descriptions[15] , symbols[15] , foregrounds[15] , backgrounds[15] , spaces[15] , windows[15] , clips[15] , levels[15] , rarities[15] , )
+16 : ( grids[16] , identities[16] , names[16] , discovers[16] , plurals[16] , descriptions[16] , symbols[16] , foregrounds[16] , backgrounds[16] , spaces[16] , windows[16] , clips[16] , levels[16] , rarities[16] , )
+17 : ( grids[17] , identities[17] , names[17] , discovers[17] , plurals[17] , descriptions[17] , symbols[17] , foregrounds[17] , backgrounds[17] , spaces[17] , windows[17] , clips[17] , levels[17] , rarities[17] , )
+18 : ( grids[18] , identities[18] , names[18] , discovers[18] , plurals[18] , descriptions[18] , symbols[18] , foregrounds[18] , backgrounds[18] , spaces[18] , windows[18] , clips[18] , levels[18] , rarities[18] , )
+19 : ( grids[19] , identities[19] , names[19] , discovers[19] , plurals[19] , descriptions[19] , symbols[19] , foregrounds[19] , backgrounds[19] , spaces[19] , windows[19] , clips[19] , levels[19] , rarities[19] , )
+20 : ( grids[20] , identities[20] , names[20] , discovers[20] , plurals[20] , descriptions[20] , symbols[20] , foregrounds[20] , backgrounds[20] , spaces[20] , windows[20] , clips[20] , levels[20] , rarities[20] , )
 }
 
 _ = {
